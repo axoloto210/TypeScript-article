@@ -47,3 +47,8 @@ console.log(set.has('set deleted'))
 //keys()やvalues(),entries()を持たないMap, Setであり、キーとしてはオブジェクトしか許されない。
 //また、キーのオブジェクトに対する参照が弱参照であり、キーとなるオブジェクトが他の箇所で使用されない場合には
 //ガベージコレクションの対象となり、メモリ上から削除可能となる。
+
+
+// const wm = new WeakMap()
+// //Argument of type 'string' is not assignable to parameter of type 'object'.ts(2345)
+// wm.set('str','test')
