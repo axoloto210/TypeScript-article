@@ -35,3 +35,25 @@ type Family<Parent extends HasName, Child extends HasName = Animal> = {
 //type AnimalAge = {
 //     age: number
 // }
+
+
+
+//SはTの部分型(型Sに該当するオブジェクトは型Tにも該当する。)
+type T = {
+    a:number
+}
+
+type S = {
+    a:number
+    b:number
+}
+
+//引数以外の型条件は揃えてある前提。
+//Sfunctionの引数となれるオブジェクトは、Tfunctionの引数にもなれる。
+const Tfunction = (arg: T):number => {
+    return arg.a
+}
+
+const Sfunction = (arg: S):number => {
+    return arg.b
+}
