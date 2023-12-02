@@ -28,6 +28,8 @@ for (let [key, value] of map.entries()) {
 }
 
 
+export {}
+
 let entriesArray = Array.from(map.entries());
 console.log(Array.from(map.entries()))
 

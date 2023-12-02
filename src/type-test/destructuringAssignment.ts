@@ -36,3 +36,5 @@ const {
 } = nestedObj
 console.log(bar2) //str
 console.log(x2) //2
+
+export {}

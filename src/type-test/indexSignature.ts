@@ -18,3 +18,5 @@ console.log(obj)
 //undefined
 console.log(obj.vvv)
 //インデックスシグネチャには、このように型安全性を破壊する力があるため、Mapの使用が推奨されている。
+
+export {}

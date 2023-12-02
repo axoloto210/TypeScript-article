@@ -3,3 +3,5 @@ function consoleLogAny (message){
 }
 
 consoleLogAny('hello')
+
+export {}

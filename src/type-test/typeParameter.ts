@@ -57,3 +57,5 @@ const Tfunction = (arg: T):number => {
 const Sfunction = (arg: S):number => {
     return arg.b
 }
+
+export {}
