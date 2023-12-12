@@ -72,7 +72,7 @@ type NestedObj = { str?: string, obj?:{ str?: string, num: number } }
 type R = Required<NestedObj>
 ```
 ### `NonNullable<T>`型
-`NonNullable<T>`型は型`T`から`null`と`undefined`を取り除いた型となります。オブジェクトのプロパティが`null`の場合に取り除いたりはしません。
+`NonNullable<T>`型は型`T`から`null`と`undefined`を取り除いた型となります。オブジェクトのプロパティが`null`の場合にそのプロパティを取り除いたりといった挙動はしません。
 ```ts
 //type P = string
 type P = NonNullable<string | null | undefined>
