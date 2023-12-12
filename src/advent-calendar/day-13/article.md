@@ -1,4 +1,4 @@
-## 組み込み型（Extract、Exclude、Partial、Required、NonNullable）
+## 12/13 組み込み型（Extract、Exclude、Partial、Required、NonNullable）
 ### `Extract<T, U>`型、`Exclude<T, U>`型
 `Extract<T, U>`は型`T`から型`U`の部分型となる型を抽出する組み込み型です。抽出できないような型の指定がされた場合には`never`型が返されます。
 `T`としてはユニオン型が指定されることが多いですが、必ずしもユニオン型である必要はありません。
