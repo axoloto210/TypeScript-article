@@ -1,2 +1,3 @@
 2023-advent-calendarのスクラップ記事用のディレクトリ。
 2023-advent-calendarの記事についてはzenn-articleリポジトリでZenn CLIを使用して管理。
+test
