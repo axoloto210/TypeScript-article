@@ -23,3 +23,7 @@ funcWithoutNoInfer('abc', 'abc')
 //型引数を指定すれば簡潔だが...
 //func<'abc'>('abc', '123')
 // function func<"abc">(a: "abc", b: "abc"): void
+
+// 引数すべてをNoInferとすると型推論が行われなくなっている
+function allNoInferFunc<T extends string>(a: NoInfer<T>, b: NoInfer<T>): void { }
+allNoInferFunc('abc', 'abc')// function allNoInferFunc<string>(a: string, b: string): void
